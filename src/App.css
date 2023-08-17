@@ -5,10 +5,43 @@
   text-align: center;
 }
 
-.card {
-  padding: 2em;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.read-the-docs {
-  color: #888;
+.container .error {
+  color: red;
+  font-weight: bold;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  color: aliceblue;
+  background-color: #888;
+  border: solid black;
+  border-radius: 5px;
+}
+
+.form input {
+  display: flex;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.form button {
+  margin: 20px;
+  width: 70%;
+  background-color: rgb(218, 218, 250);
+  color: blue;
+  border: solid blue;
+}
+
+.form button:hover {
+  background-color: rgb(57, 57, 216);
+  color: whitesmoke;
 }
